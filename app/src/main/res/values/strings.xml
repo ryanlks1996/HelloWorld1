@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="displayName">Display Name</string>
+    <string name="clear_screen">Clear Screen</string>
+    <string name="name">Name</string>
+    <string name="greeting">Hi </string>
+
+</resources>
