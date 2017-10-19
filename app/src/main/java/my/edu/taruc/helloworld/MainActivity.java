@@ -39,4 +39,8 @@ public class MainActivity extends AppCompatActivity {
         textViewName = (TextView) findViewById(R.id.textViewName);
         textViewName.setText(" ");
     }
+
+    public void testRun(View v){
+        TextView textViewName;
+    }
 }
