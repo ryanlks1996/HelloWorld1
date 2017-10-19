@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         textViewName = (TextView) findViewById(R.id.textViewName);
         editTextName = (EditText) findViewById(R.id.editTextName);
         editTextAge = (EditText) findViewById(R.id.editTextAge);
-        int age = Integer.parseInt(editTextAge.getText().toString());
+        int age = Integer.parseInt(editTextAge.getText().toString())+1;
 
         textViewName.setText(getString(R.string.greeting) + editTextName.getText()+", you will be " + age + " in 2018");
 
