@@ -40,7 +40,5 @@ public class MainActivity extends AppCompatActivity {
         textViewName.setText(" ");
     }
 
-    public void testRun(View v){
-        TextView textViewName;
-    }
+
 }
