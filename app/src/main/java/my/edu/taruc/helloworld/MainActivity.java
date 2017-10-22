@@ -40,5 +40,13 @@ public class MainActivity extends AppCompatActivity {
         textViewName.setText(" ");
     }
 
+    public void removeText(View v){
+
+        TextView textViewName;
+
+        textViewName = (TextView) findViewById(R.id.textViewName);
+        textViewName.setText(" ");
+    }
+
 
 }
