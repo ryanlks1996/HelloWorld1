@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewName;
         EditText editTextName;
         EditText editTextAge;
-
+        //Use to test github
 
         textViewName = (TextView) findViewById(R.id.textViewName);
         editTextName = (EditText) findViewById(R.id.editTextName);
